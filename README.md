@@ -25,7 +25,7 @@
 * Проект создан на платформе Windows Forms и на консоли
 * Создана общая библиотека классов
 
-## 🏗️ Архитектура
+### 🏗️ Архитектура
 Структура каталога решения:
 
  <img width="357" height="291" alt="image" src="https://github.com/user-attachments/assets/b2a1726a-5abc-4e06-802b-fff04c0683ac" /> <img width="353" height="167" alt="image" src="https://github.com/user-attachments/assets/29f936fb-8e74-4826-96d3-af254773ac88" /> <img width="358" height="302" alt="image" src="https://github.com/user-attachments/assets/3c22ccfb-5945-475b-adb1-de729e00cdff" />
