@@ -47,4 +47,31 @@
             getAnswerTimer.Start();
         }
     }
- }</code></pre>
+ }
+</code></pre>
+
+### 📬Работа с JSON
+Для удобной записи и хранения информации был использован текстовый формат JSON
+#### 📥Сериализация
+<pre><code>
+static void Save(List<User> usersResult)
+{
+    var jsonData=JsonConvert.SerializeObject(usersResult,Formatting.Indented);
+    FileProvider.Replace(Path, jsonData);
+}
+</code></pre>
+
+#### 📤Десериализация
+<pre><code>
+public static List<User> GetUsersResults()
+{
+    if(!FileProvider.CheckFile(Path))
+    {
+        return new List<User>();
+    }
+    var value = FileProvider.GetValue(Path);
+    var userResults=JsonConvert.DeserializeObject<List<User>>(value);
+    return userResults;
+}
+</code></pre>     
+
