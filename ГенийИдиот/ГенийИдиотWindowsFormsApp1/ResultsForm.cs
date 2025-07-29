@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using ГенийИдиотClassLibrary1;
+using GeniyIdiot.Common;
 
-namespace ГенийИдиотWindowsFormsApp1
+namespace GeniyIdiotWindowsFormsApp
 {
     public partial class ResultsForm : Form
     {

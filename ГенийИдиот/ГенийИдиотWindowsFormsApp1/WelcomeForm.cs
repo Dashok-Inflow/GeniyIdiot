@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ГенийИдиотWindowsFormsApp1
+namespace GeniyIdiotWindowsFormsApp
 {
     public partial class WelcomeForm : Form
     {
@@ -15,7 +15,6 @@ namespace ГенийИдиотWindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             timer.Start();
 
             Close();

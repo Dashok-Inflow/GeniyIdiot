@@ -1,5 +1,5 @@
 ﻿using System;
-using ГенийИдиотClassLibrary1;
+using GeniyIdiot.Common;
 
 namespace ГенийИдиотConsoleApp1
 {

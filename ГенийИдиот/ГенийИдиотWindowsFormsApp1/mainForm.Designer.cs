@@ -1,4 +1,4 @@
-﻿namespace ГенийИдиотWindowsFormsApp1
+﻿namespace GeniyIdiotWindowsFormsApp
 {
     partial class MainForm
     {

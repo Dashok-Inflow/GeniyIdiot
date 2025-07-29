@@ -1,4 +1,4 @@
-﻿namespace ГенийИдиотWindowsFormsApp1
+﻿namespace GeniyIdiotWindowsFormsApp
 {
     partial class ResultsForm
     {
@@ -44,7 +44,7 @@
             this.countRightAnswersColumn,
             this.diagnoseColumn});
             this.showUsersResultsDataGridView.Location = new System.Drawing.Point(1, 0);
-            this.showUsersResultsDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showUsersResultsDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.showUsersResultsDataGridView.Name = "showUsersResultsDataGridView";
             this.showUsersResultsDataGridView.RowHeadersWidth = 51;
             this.showUsersResultsDataGridView.Size = new System.Drawing.Size(723, 406);
@@ -81,7 +81,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(724, 410);
             this.Controls.Add(this.showUsersResultsDataGridView);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ResultsForm";
             this.Text = "Гений-Идиот, результаты игры";
             this.Load += new System.EventHandler(this.UsersResultsForm_Load);
