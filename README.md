@@ -30,4 +30,21 @@
 
  <img width="357" height="291" alt="image" src="https://github.com/user-attachments/assets/b2a1726a-5abc-4e06-802b-fff04c0683ac" /> <img width="353" height="167" alt="image" src="https://github.com/user-attachments/assets/29f936fb-8e74-4826-96d3-af254773ac88" /> <img width="358" height="302" alt="image" src="https://github.com/user-attachments/assets/3c22ccfb-5945-475b-adb1-de729e00cdff" />
 
+### 🕰️ Реализация таймера
+<pre><code>
+ private void getAnswerTimer_Tick(object sender, EventArgs e)
+ {
+    time = time - 1;
+    showTimerLabel.Text = Convert.ToString(time);
 
+    if (time==0)
+    {
+        getAnswerTimer.Stop();
+        var sms=MessageBox.Show("Время вышло! Ответ будет засчитан как неправильный", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        if(sms== DialogResult.OK)
+        {
+            nextButton_Click(null, null);
+            getAnswerTimer.Start();
+        }
+    }
+ }</code></pre>
