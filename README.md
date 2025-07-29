@@ -9,9 +9,11 @@
 
 * В конце тестирования пользователю присваивается _"диагноз"_
 
-### Пример работы приложения
+### 🎞️Пример работы приложения
 * Windows Forms
 
 ![ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/37d78572-13b4-4480-8319-5fcd24c642f7)
 
 * Console
+
+![ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/574f9d7e-380f-40d4-bde1-ee82c569ef46)
