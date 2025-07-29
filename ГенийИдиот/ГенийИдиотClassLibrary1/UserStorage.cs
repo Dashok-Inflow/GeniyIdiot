@@ -1,9 +1,7 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
-using static System.Net.Mime.MediaTypeNames;
 
-namespace ГенийИдиотClassLibrary1
+namespace GeniyIdiot.Common
 {
     public class UserStorage
     {

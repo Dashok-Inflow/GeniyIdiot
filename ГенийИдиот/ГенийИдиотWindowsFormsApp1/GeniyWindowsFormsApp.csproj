@@ -107,9 +107,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ГенийИдиотClassLibrary1\ГенийИдиотClassLibrary1.csproj">
+    <ProjectReference Include="..\ГенийИдиотClassLibrary1\GeniyIdiot.Common.csproj">
       <Project>{adafdcde-29b2-4e12-941c-f7953605f63e}</Project>
-      <Name>ГенийИдиотClassLibrary1</Name>
+      <Name>GeniyIdiot.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-﻿namespace ГенийИдиотClassLibrary1
+﻿namespace GeniyIdiot.Common
 {
     public class User
     {

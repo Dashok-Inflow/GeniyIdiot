@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace ГенийИдиотClassLibrary1
+namespace GeniyIdiot.Common
 {
     public class FileProvider
     {
